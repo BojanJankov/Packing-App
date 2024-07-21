@@ -1,0 +1,16 @@
+.CountryCard {
+  width: 250px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.country-info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}

@@ -1,0 +1,45 @@
+.DestinationPage {
+  min-height: max-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countries-div {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 50px;
+}
+
+.button-div-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-div-navigation h3 {
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+.navigate-button {
+  width: 200px;
+  height: 30px;
+  border-radius: 4px;
+  border: 1px solid grey;
+  cursor: pointer;
+  background-color: blueviolet;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+}

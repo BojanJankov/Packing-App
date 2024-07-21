@@ -1,0 +1,218 @@
+[
+  {
+    "id": "1",
+    "description": "Passport",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "male"
+  },
+  {
+    "id": "2",
+    "description": "T-shirts",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "essentials",
+    "gender": "male"
+  },
+  {
+    "id": "3",
+    "description": "Jeans",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "essentials",
+    "gender": "male"
+  },
+  {
+    "id": "4",
+    "description": "Sneakers",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "essentials",
+    "gender": "male"
+  },
+  {
+    "id": "5",
+    "description": "Phone Charger",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "male"
+  },
+  {
+    "id": "6",
+    "description": "Socks",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "essentials",
+    "gender": "male"
+  },
+  {
+    "id": "7",
+    "description": "Swimsuit",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "essentials",
+    "gender": "male"
+  },
+  {
+    "id": "8",
+    "description": "Headphones",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "male"
+  },
+  {
+    "id": "9",
+    "description": "Laptop",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "male"
+  },
+  {
+    "id": "10",
+    "description": "Suncream",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "male"
+  },
+  {
+    "id": "11",
+    "description": "Passport",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "female"
+  },
+  {
+    "id": "12",
+    "description": "Toothbrush",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "female"
+  },
+  {
+    "id": "13",
+    "description": "T-shirts",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "essentials",
+    "gender": "female"
+  },
+  {
+    "id": "14",
+    "description": "Jeans",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "essentials",
+    "gender": "female"
+  },
+  {
+    "id": "15",
+    "description": "Sneakers",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "essentials",
+    "gender": "female"
+  },
+  {
+    "id": "16",
+    "description": "Phone Charger",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "female"
+  },
+  {
+    "id": "17",
+    "description": "Sunglasses",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "female"
+  },
+  {
+    "id": "18",
+    "description": "Travel Guidebook",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "female"
+  },
+  {
+    "id": "19",
+    "description": "Water Bottle",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "female"
+  },
+  {
+    "id": "20",
+    "description": "Jacket",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "essentials",
+    "gender": "female"
+  },
+  {
+    "id": "21",
+    "description": "Headphones",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "female"
+  },
+  {
+    "id": "22",
+    "description": "Laptop",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "female"
+  },
+  {
+    "id": "23",
+    "description": "Swimsuit",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "essentials",
+    "gender": "female"
+  },
+  {
+    "id": "24",
+    "description": "Flip Flops",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "essentials",
+    "gender": "female"
+  },
+  {
+    "id": "25",
+    "description": "Socks",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "essentials",
+    "gender": "female"
+  },
+  {
+    "id": "26",
+    "description": "Travel Pillow",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "female"
+  },
+  {
+    "id": "27",
+    "description": "Snacks",
+    "quantity": 0,
+    "isPacked": false,
+    "category": "toiletries",
+    "gender": "female"
+  }
+]

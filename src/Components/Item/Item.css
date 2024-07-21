@@ -1,0 +1,31 @@
+.Item {
+  width: 400px;
+  background-color: #6e44ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.item-title {
+  margin: 0;
+  width: 20px;
+}
+
+.item-info {
+  display: flex;
+  gap: 10px;
+  width: 100px;
+}
+
+.item-info button {
+  height: 20px;
+}
+
+.item-packed-info {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+}

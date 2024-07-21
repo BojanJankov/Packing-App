@@ -1,0 +1,97 @@
+.SummaryPage {
+  display: flex;
+  flex-direction: column;
+}
+
+.summery-heading {
+  width: 100%;
+  height: 50px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.summery-heading h1 {
+  font-size: 32px;
+}
+
+.summery-info-div {
+  display: grid;
+  place-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px 0;
+}
+
+.summery-items-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.summery-destination-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.summery-trip-details-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items-div-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.summery-item-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 250px;
+  background-color: blueviolet;
+  height: 80px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.summery-item-div strong {
+  font-size: 18px;
+}
+
+.destination-card {
+  background-color: blueviolet;
+  padding: 50px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.destination-card .country-image {
+  display: flex;
+  justify-content: start;
+}
+
+.country-info h4 {
+  font-size: 20px;
+  display: flex;
+  justify-content: start;
+}
+
+.country-info strong {
+  display: flex;
+  justify-content: start;
+}
+
+.trip-details-info-div {
+  background-color: blueviolet;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 10px;
+  align-items: start;
+  font-size: 18px;
+}

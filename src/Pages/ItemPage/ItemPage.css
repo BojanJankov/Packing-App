@@ -1,0 +1,49 @@
+.ItemPage {
+  min-height: 786px;
+}
+
+.item-lists-container {
+  display: grid;
+  grid-template-rows: max-content max-content max-content 140px;
+}
+
+.results-container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.add-item-div {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 30px;
+  gap: 20px;
+}
+
+.add-item-div input {
+  width: 200px;
+  height: 25px;
+}
+
+.sort-item-div {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  height: 40px;
+}
+
+.sort-item-div p {
+  padding-top: 2px;
+  margin: 0;
+}
+
+.sort-item-div select {
+  height: 25px;
+}
+
+.sort-item-div button {
+  height: 25px;
+}

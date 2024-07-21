@@ -1,0 +1,11 @@
+.NotFoundPage {
+  min-height: 786px;
+  display: grid;
+  place-content: center;
+}
+
+.NotFoundPage h1 {
+  font-size: 42px;
+  font-weight: 700;
+  color: black;
+}

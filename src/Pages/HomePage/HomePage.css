@@ -1,0 +1,25 @@
+.HomePage {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.heading-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading-div h1 {
+  font-size: 52px;
+}
+
+.heading-div h3 {
+  font-size: 32px;
+}
+
+.buttons-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

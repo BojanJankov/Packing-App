@@ -13,7 +13,7 @@ import {
 function ItemList() {
   const items: ItemModel[] = useAppSelector((state) => state.items.value);
   const dispatch = useAppDispatch();
-  const [query, setQuery] = useState("");
+  const [query, setQuery] = useState("title");
   const [title, setTitle] = useState("");
   const [category, setCategory] = useState("essentials");
   const { gender } = useParams();
@@ -60,6 +60,8 @@ function ItemList() {
         <button
           className="add-item-btn"
           onClick={() => {
+            if (!title) return;
+
             dispatch(addNewItem({ title, category, gender }));
 
             setTitle("");

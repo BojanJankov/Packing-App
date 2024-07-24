@@ -64,28 +64,20 @@ const itemsSlice = createSlice({
     sortItems(state, { payload: query }: PayloadAction<string>) {
       let copyStateValue = [...state.value];
       if (query === "title") {
-        for (const item of state.value) {
-          copyStateValue.sort((a, b) =>
-            b.description > a.description ? 1 : -1
-          );
-        }
+        copyStateValue.sort((a, b) =>
+          b.description.toLowerCase() > a.description.toLowerCase() ? 1 : -1
+        );
       }
       if (query === "quantity") {
-        for (const item of state.value) {
-          copyStateValue.sort((a, b) =>
-            Number(b.quantity) > Number(a.quantity) ? 1 : -1
-          );
-        }
+        copyStateValue.sort((a, b) =>
+          Number(b.quantity) > Number(a.quantity) ? 1 : -1
+        );
       }
       if (query === "isPacked") {
-        for (const item of state.value) {
-          copyStateValue.sort((a, b) => (b.isPacked > a.isPacked ? 1 : -1));
-        }
+        copyStateValue.sort((a, b) => (b.isPacked > a.isPacked ? 1 : -1));
       }
       if (query === "isNotPacked") {
-        for (const item of state.value) {
-          copyStateValue.sort((a, b) => (!b.isPacked > !a.isPacked ? 1 : -1));
-        }
+        copyStateValue.sort((a, b) => (!b.isPacked > !a.isPacked ? 1 : -1));
       }
       state.value = copyStateValue;
     },
